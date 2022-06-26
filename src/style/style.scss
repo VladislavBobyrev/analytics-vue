@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import "./utils/resets";
+@import "./ui/vriable";
+@import "./ui/scroll";
+@import "./ui/button";
+@import "./global";
+
+//=====================================================
+//                 LAYOUTS
+//=====================================================
+@import "../layout/AuthLayout/AuthLayout";
+@import "../layout/MainLayout/MainLayout";
+
+//=====================================================
+//                 PAGES
+//=====================================================
+@import "../views/AuthView/AuthView";
+@import "../views/HomeView/HomeView";
+
+//=====================================================
+//                 COMPONENTS
+//=====================================================
+@import "../components/TheHeader/TheHeader";

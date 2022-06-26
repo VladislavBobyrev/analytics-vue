@@ -1,0 +1,44 @@
+html {
+  display: flex;
+  min-height: -webkit-fill-available; // для корректного отображения на мобильных устройствах
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  color: $color-secondary;
+  background: $bg-basic-75;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+main {
+  position: relative;
+  overflow: auto;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+}
+h3{
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
