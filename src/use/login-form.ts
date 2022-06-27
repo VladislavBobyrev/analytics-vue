@@ -19,7 +19,7 @@ export default function useLoginForm()
       .max(24, `id сайта должен содержать ${MIN_LEHGTH} символа`),
   )
 
-  const onSubmit = handleSubmit(async (values) =>
+  const onSubmit = handleSubmit(async () =>
   {
     try
     {

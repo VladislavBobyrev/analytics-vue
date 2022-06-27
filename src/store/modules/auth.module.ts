@@ -45,9 +45,15 @@ export default {
         {
           await commit('setkey', '5f8475902b0be670555f1bb3')
         }
-        return await response
+        await response
       }
       catch (e) {}
+    },
+  },
+  getters: {
+    isAuthenticated(state:any)
+    {
+      return state.key
     },
   },
 }

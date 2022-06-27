@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/use/am-charts.ts"  ],
   "exclude": [
     "node_modules"
   ]

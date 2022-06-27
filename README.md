@@ -103,8 +103,24 @@
     шапка сайта остается неизменной
 </details>
 
+<details >
+  <summary >Yup</summary>
+ 
+  [Что это?](https://www.npmjs.com/package/yup) 
+
+    Yup — это конструктор схемы JavaScript для анализа и проверки значений.
+</details>
+
+<details >
+  <summary >Vee-validate</summary>
+ 
+  [Что это?](https://vee-validate.logaretm.com/v4/) 
+
+    Form Validation for Vue.js
+</details>
+
 <details>
-  <summary>SCSS</summary>
+  <summary>Scss</summary>
  
   [Что это?](https://sass-scss.ru/)  
 
